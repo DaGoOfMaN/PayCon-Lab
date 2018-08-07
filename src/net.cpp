@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2015 Satoshi Nakamoto
+﻿// Copyright (c) 2009-2015 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin developers
 // Copyright (c) 2015 The PayCon developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -1111,7 +1111,7 @@ void ThreadMapPort2(void* parg)
     r = UPNP_GetValidIGD(devlist, &urls, &data, lanaddr, sizeof(lanaddr));
     if (r == 1)
     {
-/* 
+/*
        if (fDiscover) {
             char externalIPAddress[40];
             r = UPNP_GetExternalIPAddress(urls.controlURL, data.first.servicetype, externalIPAddress);
@@ -1212,39 +1212,27 @@ void MapPort()
 
 
 
-//*
+/*
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-        {"Explorer", "138.197.75.119"},
-        {"TEST", "45.46.122.119"}
-};
-//*/
+        {"coin-server.com", "coin-server.com"},
+        {"payconnode1.dynu.com", "payconnode1.dynu.com"}
+};*/
 // hidden service seeds
 static const char *strMainNetOnionSeed[][1] = {
-    {"zaqxschmq4bfj64d.onion"},
-	{"xnmbxhbbhngvp5ea.onion"},
-	{"4rvjnfn5wiyk2aqp.onion"},
-	{"sun6z3scsrloydgf.onion"},
-	{"rgz3eevnrwjvnozm.onion"},
-	{"xuzhdunw6pm2cnxo.onion"},
-	{"3tkpjldbbidxwfv3.onion"},
-	{"pjxv27nvd4ce32xb.onion"},
-	{"as6l375o37zaif3w.onion"},
-	{"v2s6pz5ipuey457f.onion"},
-	{"62jhprfz3abtkvbe.onion"},
-	{"keqtj27fa6hn3xu7.onion"},
-	{"hlgv4zokymhz26tx.onion"},
-	{"dfuwr2vvbxm6dx3k.onion"},
-	{"4363xyabb3hkjocd.onion"},
-	{"tfxfu7yxe5dkauwf.onion"},
-	{"xnmbxhbbhngvp5ea.onion"},
-	{"ev6uqghx5jjfotep.onion"},
-	{"ndawxkpfmjgbmycd.onion"},
-	{"yey3rnjdsdc77rrp.onion"},
-	{"j7dsfqsdt6pjedvq.onion"},
+    {"6razxe7fdnehrwtx.onion"},
+    {"ew74blebblndn34v.onion"},
+    {"pt7m4kxmrrwctuhk.onion"},
+    {"g2mn3cho3bwwvcsn.onion"},
+    {"2u66e4ghs6jxw3yg.onion"},
+    {"z3syjyu33xxxdz6d.onion"},
+    {"ljs4riunjj46ni4n.onion"},
+    {"2ydhobc5sgm4kxti.onion"},
+    {"tfeayvuoekiaaxj3.onion"},
+
 
     {NULL}
 };
