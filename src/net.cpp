@@ -1212,15 +1212,16 @@ void MapPort()
 
 
 
-/*
+//*
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-        {"coin-server.com", "coin-server.com"},
-        {"payconnode1.dynu.com", "payconnode1.dynu.com"}
-};*/
+        {"Explorer", "138.197.75.119"},
+        {"TEST", "45.46.122.119"}
+};
+//*/
 // hidden service seeds
 static const char *strMainNetOnionSeed[][1] = {
     {"zaqxschmq4bfj64d.onion"},
