@@ -1219,7 +1219,11 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
         {"Explorer", "138.197.75.119"},
+<<<<<<< HEAD
         {"", ""}
+=======
+        {"TEST", "45.46.122.119"}
+>>>>>>> 3beda425c685d80ac98efbafe50c5765dc1dce37
 };
 //*/
 // hidden service seeds
