@@ -1,5 +1,5 @@
-/** 
- * Muggle Qt Theme - v1.0
+/**
+ * Black wood Qt Theme - v1.0
  * Created: 22/2/2015
  * Author: tepelstreeltje (Based on HyperBlue by Zeewolf) 
  */
@@ -11,7 +11,7 @@
  */ 
  
 /** [VARS]
-	$text-color = #ffffff
+	$text-color = #969675
 	$main-color-l = #142930
 	$main-color-xl = #969675
 	$main-color-d = #342D7E
@@ -35,17 +35,13 @@
 
 /* Overview */
  QMainWindow {
-	border-image: url($themes-dir/Muggle/wood.png);
+	border-image: url($themes-dir/Muggle/wood.jpg);
 }
 
 /* Dialogs */
 QDialog, QTableView{
-	border-image: url($themes-dir/Muggle/black.png);
+	border-image: url($themes-dir/Muggle/black.jpg);
      font-size: 14px;
-}
-/* Coin Image */
-#label_2 {
-	qproperty-pixmap: url($themes-dir/Muggle/paycon.png);
 }
 /* Group Box */
 QGroupBox {
@@ -440,7 +436,7 @@ CoinControlTreeWidget, QTableView {
 	border-style: none;
 	border-bottom: 3px solid $shade-transparent-2;
 	color: $text-color;
-	selection-background-color: #0b0a09;
+	selection-background-color: $main-color-transparent-2;
 	/*selection-color: $main-color-xd;*/
 	outline: none;
 }
@@ -467,7 +463,7 @@ QTreeView {
 
 QTreeView::item {
 	border: none;
-	color: $accent-color;
+	color: $text-color;
 }
 
 QTreeView::item:hover {
@@ -475,8 +471,8 @@ QTreeView::item:hover {
 }
 
 QTreeView::item:selected {
-	background-color: #0b0a09;
-	color: #ffffff;
+	background-color: $main-color-transparent-2;
+	color: $main-color-xd;
 }
 
 /* Table Header */

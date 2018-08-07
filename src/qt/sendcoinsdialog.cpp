@@ -573,14 +573,12 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         CoinControlDialog::coinControl->destChange = CBitcoinAddress(text.toStdString()).Get();
 
         // label for the change address
-        ui->labelCoinControlChangeLabel->setProperty("error", false);
-        ui->labelCoinControlChangeLabel->style()->polish(ui->labelCoinControlChangeLabel);
+        ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:black;}");
         if (text.isEmpty())
             ui->labelCoinControlChangeLabel->setText("");
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
-            ui->labelCoinControlChangeLabel->setProperty("error", true);
-            ui->labelCoinControlChangeLabel->style()->polish(ui->labelCoinControlChangeLabel);
+            ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
             ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid PayCon address"));
         }
         else
@@ -597,8 +595,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
                     ui->labelCoinControlChangeLabel->setText(tr("(no label)"));
                 else
                 {
-				    ui->labelCoinControlChangeLabel->setProperty("error", true);
-                    ui->labelCoinControlChangeLabel->style()->polish(ui->labelCoinControlChangeLabel);
+                    ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
                     ui->labelCoinControlChangeLabel->setText(tr("WARNING: unknown change address"));
                 }
             }

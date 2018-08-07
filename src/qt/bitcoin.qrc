@@ -2,6 +2,7 @@
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/PayCon.png</file>
         <file alias="coinbg">res/icons/PayCon256.png</file>
+        <file alias="yuno">res/icons/PayCon-Yuno.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>
@@ -11,7 +12,6 @@
         <file alias="connect_2">res/icons/connect2_16.png</file>
         <file alias="connect_3">res/icons/connect3_16.png</file>
         <file alias="connect_4">res/icons/connect4_16.png</file>
-        <file alias="circuit">res/icons/circuit.png</file>
         <file alias="transaction_0">res/icons/transaction0.png</file>
         <file alias="transaction_confirmed">res/icons/transaction2.png</file>
         <file alias="transaction_conflicted">res/icons/transaction_conflicted.png</file>
@@ -45,7 +45,8 @@
         <file alias="debugwindow">res/icons/debugwindow.png</file>
         <file alias="staking_off">res/icons/staking_off.png</file>
         <file alias="staking_on">res/icons/staking_on.png</file>
-        <file alias="reddit">res/icons/reddit.png</file>
+		<file alias="reddit">res/icons/reddit.png</file>
+        <file alias="twitter">res/icons/twitter.png</file>
         <file alias="face">res/icons/face.png</file>
         <file alias="forums">res/icons/forums.png</file>
         <file alias="youtube">res/icons/youtube.png</file>
@@ -53,12 +54,8 @@
         <file alias="cryptopia">res/icons/cryptopia.png</file>
         <file alias="yobit">res/icons/yobit.png</file>
         <file alias="social">res/icons/social.png</file>
-        <file alias="block">res/icons/block.png</file>
-        <file alias="statistics">res/icons/stats.png</file>
-        <file alias="cryptsy">res/icons/cryptsy.png</file>
-        <file alias="skype">res/icons/skype_icon_64.png</file>
-        <file alias="twitter">res/icons/Twitter-icon-64.png</file>
-        <file alias="slack">res/icons/slack-64.png</file>
+		<file alias="block">res/icons/block.png</file>
+		<file alias="statistics">res/icons/stats.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>

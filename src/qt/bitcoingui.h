@@ -17,11 +17,8 @@ class ChatWindow;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
-class StakeForCharityDialog;
 class Notificator;
 class RPCConsole;
-class WalletModel;
-class TransactionTableModel;
 
 QT_BEGIN_NAMESPACE
 class QLabel;
@@ -76,7 +73,6 @@ private:
     AddressBookPage *receiveCoinsPage;
     SendCoinsDialog *sendCoinsPage;
     SignVerifyMessageDialog *signVerifyMessageDialog;
-    StakeForCharityDialog *stakeForCharityDialog;
 
     QLabel *labelEncryptionIcon;
     QLabel *labelMintingIcon;
@@ -204,6 +200,8 @@ private slots:
     void optionsClicked();
     /** Show about dialog */
     void aboutClicked();
+	/** Show Stake For Charity Dialog */
+    void charityClicked();
 #ifndef Q_OS_MAC
     /** Handle tray icon clicked */
     void trayIconActivated(QSystemTrayIcon::ActivationReason reason);
@@ -241,7 +239,6 @@ private slots:
     void updateMintingIcon();
     /** Update minting weight info */
     void updateMintingWeights();
-    void charityClicked(QString addr = "");
     /** Load external QSS stylesheet */
     void changeTheme(QString theme);
     void loadTheme(QString theme);
