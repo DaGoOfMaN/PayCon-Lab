@@ -1223,7 +1223,21 @@ static const char *strDNSSeed[][2] = {
 };*/
 // hidden service seeds
 static const char *strMainNetOnionSeed[][1] = {
-    {"zaqxschmq4bfj64d.onion"},
+    {"z3syjyu33xxxdz6d.onion"},
+    {"tfeayvuoekiaaxj3.onion"},
+    {"g2mn3cho3bwwvcsn.onion"},
+    {"pt7m4kxmrrwctuhk.onion"},
+    {"ew74blebblndn34v.onion"},
+    {"2u66e4ghs6jxw3yg.onion"},
+    {"ljs4riunjj46ni4n.onion"},
+    {"3pvonbk5ioo4jj3j.onion"},
+    {"gfgsjvftnh4rk775.onion"},
+    {"eesvaersilvvcl2x.onion"},
+    {"tkl5aw2a66e76kpp.onion"},
+    {"pt7m4kxmrrwctuhk.onion"},
+    {"vjrin74k5h5pxfqj.onion"},
+    {"jsdv5u63yptolckz.onion"},
+    {"rc2kjqwbw5brkbgv.onion"},
     {"xnmbxhbbhngvp5ea.onion"},
     {"4rvjnfn5wiyk2aqp.onion"},
     {"sun6z3scsrloydgf.onion"},
