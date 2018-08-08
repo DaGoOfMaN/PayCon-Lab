@@ -50,7 +50,7 @@ QDialog, QTableView{
 	border-image: none
      font-size: 14px;
 }
-/* Coin Image */
+Coin Image 
 #label_2 {
 	qproperty-pixmap: url($themes-dir/Conflict/payconRed.png);
 	/*padding-bottom: 100px*/
