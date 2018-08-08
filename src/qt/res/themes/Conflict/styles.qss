@@ -43,11 +43,11 @@
 
 /* Dialogs */
 QDialog, QTableView{
-	border-image: url($themes-dir/Conflict/graytrans.png);
+	border-image: none
      font-size: 14px;
 }
 #CoinControlDialog, #AskPassphraseDialog, #AboutDialog, #RPCConsole{
-	border-image: url($themes-dir/Conflict/blacktrans.png);
+	border-image: none
      font-size: 14px;
 }
 /* Coin Image */
