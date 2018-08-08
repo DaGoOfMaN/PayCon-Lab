@@ -58,6 +58,13 @@ QWidget{
 /* Frames */
 QFrame {	
 	/* too general - do not style */
+
+}	
+	
+/* Coin Image */
+#label_2 {
+	qproperty-pixmap: url($themes-dir/Blackwood/PayCon.png);
+
 }
 
 /* Bottom status bar */
