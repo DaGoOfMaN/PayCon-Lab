@@ -105,13 +105,12 @@ QValidatedLineEdit[error="true"], QDoubleSpinBox[error="true"] {
 
 /* Balance frame */
 QFrame#frame {
-	border-image: url($themes-dir/Conflict/blacktrans.png);
+	border-image: none
 }
 
 /* Recent transactions frame */
 QFrame#frame_2 {
-	border-image: url($themes-dir/Conflict/blacktrans.png);
-}
+	border-image: none
 #listTransactions{
 color: $accent-color;
 }
