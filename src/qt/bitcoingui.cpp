@@ -87,7 +87,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 {
     setMinimumSize(850,600);
             resize(850,600);
-    setWindowTitle(tr("PayCon") + " - " + tr("Lab"));
+    setWindowTitle(tr("PayCon") + " - " + tr("NLab"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -1389,9 +1389,9 @@ void BitcoinGUI::listThemes(QStringList& themes)
     // get selected theme from registry (if any)
     QSettings settings;
     selectedTheme = settings.value("Template").toString();
-    // or use default theme - Blackwood
+    // or use default theme - Crypto-city
     if (selectedTheme=="") {
-        selectedTheme = "Default";
+        selectedTheme = "Crypto-city";
     }
     // load it!
     loadTheme(selectedTheme);
