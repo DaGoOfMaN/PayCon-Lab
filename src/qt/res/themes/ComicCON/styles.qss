@@ -12,7 +12,7 @@
  */ 
  
 /** [VARS]
-	$text-color = #333
+	$text-color = #000000
 	$main-color-l = #142930
 	$main-color-xl = #969675
 	$main-color-d = #342D7E
@@ -24,7 +24,7 @@
 	$shade-transparent-2 = rgba(0,0,0,50)
 	$main-color = rgba(255,255,255,50)
 	$text-grey-d = #0c191d
-	$accent-color = #ff0000
+	$accent-color = #000000
 	$brightest-color = #000000
 	$input-border-color = #000000
 	$header-font = "Comic Sans MS, cursive, sans-serif"
@@ -56,7 +56,7 @@
 }
 /*Send Coins Page Heading*/
 #SendCoinsDialog QLabel#labelCoinControlFeatures{
-	color: #ff0000;
+	color: #ff6600;
 	font-size: 14px;
 	font-weight: bold;
 	font-family: Comic Sans MS, cursive, sans-serif;
@@ -64,35 +64,35 @@
 
 /*Statistics Page Heading*/
 #StatisticsPage QLabel#label_5{
-	color: #ff0000;
+	color: #ff3333;
 	font-size: 14px;
 	font-weight: bold;
 	font-family: Comic Sans MS, cursive, sans-serif;
 }
 /*Block Browser Heading*/
 QWidget#BlockBrowser QLabel#label_5{
-	color: #ff0000;
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: none;
 	font-size: 14px;
 	font-weight: bold;
 	font-family: Comic Sans MS, cursive, sans-serif;
 }
 /*Chat Page Headings*/
 QWidget#ChatWindowClass QLabel#label_9{
-	color: #ff0000;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 0 0 0 10px;
 	font-family: Comic Sans MS, cursive, sans-serif;
 }
 QWidget#ChatWindowClass QLabel#label_11{
-	color: #ff0000;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
 	font-family: Comic Sans MS, cursive, sans-serif;
 }
 QWidget#ChatWindowClass QLabel#label_12{
-	color: #ff0000;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 0 0 0 10px;
@@ -106,19 +106,19 @@ QWidget#widget_2{
 }
 /*Block Browser Background*/
 QWidget#BlockBrowser QWidget#layoutWidget_2{
-	border-image: url($themes-dir/ComicCON/blockexplorer.png);
+	border-image: none;
 }
 QWidget#layoutWidget_2 QLabel{
-	color: #ff0000;
+	color: #ffffff;
 	padding: 0 0 0 10px;
 }
 QWidget#layoutWidget_2 QSpinBox{
-	background: #ff0000;
-	color: #ffffff;
+	background: #ffffff;
+	color: #000000;
 }
 QWidget#layoutWidget_2 QLineEdit{
-	background: #ff0000;
-	color: #ffffff;
+	background: #ffffff;
+	color: #000000;
 }
 QFrame#gridFrame_2 {
 	border-image: url($themes-dir/ComicCON/whitetrans.png);
@@ -159,7 +159,7 @@ QFrame {
 /* Bottom status bar */
 QStatusBar {
 	background-color: #000000;
-	color: $text-color;
+	color: #ffffff;
 }
 
 QStatusBar::item {
@@ -188,14 +188,14 @@ QValidatedLineEdit[error="true"], QDoubleSpinBox[error="true"] {
 
 /* Balance frame */
 QFrame#frame {
-	border-image: url($themes-dir/ComicCON/whitetrans.png);
+	border-image:
 	padding: 10px 20px;
 	margin: 0 0 0 5px;
 }
 
 /* Recent transactions frame */
 QFrame#frame_2 {
-	border-image: url($themes-dir/ComicCON/whitetrans.png);
+	border-image:
 	padding: 10px 20px;
 }
 #listTransactions{
