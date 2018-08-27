@@ -12,7 +12,7 @@
 const std::string CLIENT_NAME("PayCon");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   ""
+#define CLIENT_VERSION_SUFFIX   " Crypto-city"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
